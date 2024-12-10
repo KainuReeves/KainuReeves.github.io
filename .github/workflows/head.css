@@ -1,0 +1,142 @@
+.title{
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+    font-weight: bold; /* 粗體 */
+    font-size: 50px; /* 字體大小 */
+    color: rgb(6, 58, 100) /* 字體顏色 */
+    } 
+
+.head_text{
+    margin: 20px auto; 
+    width: 80%; /* 區塊寬度 */
+    max-width: 1200px; /* 最大寬度 */
+    text-align: left; /* 設字靠左對齊 */
+    margin-top:50px; /* 與上分區塊間距 */
+    font-size: 40px; /* 字體大小 */
+    color: rgb(6, 58, 100)
+    }
+
+.text{
+    display: flex; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 1200px; 
+    text-align: left;
+    margin-top:30px; 
+    font-size: 26px; 
+    line-height: 1.75; /* 行高1.75倍 */
+    color: rgb(5, 36, 61)
+    }
+.red_text{
+    display: flex; 
+    margin: auto; 
+    width: 80%; 
+    max-width: 1200px; 
+    text-align: left; 
+    font-size: 26px; 
+    line-height: 1; 
+    color: rgb(155, 19, 19)
+    }
+.learn_link{
+    display: flex;
+    margin: 20px auto; 
+    width: 80%;
+    max-width: 1200px; 
+    text-align: left;
+    margin-top:30px; 
+    font-size: 30px; 
+    color: rgb(5, 36, 61)
+    }
+.learn_link:hover{
+    color: white;
+    }
+
+@media screen and (max-width: 1650px) {
+    .title{
+        justify-content: center; 
+        align-items: center; 
+        margin-left: 200px; /* 距離左邊 220px */
+        margin-right: 20px; /* 距離右邊間距20px */
+        width: auto; 
+        } 
+    .head_text{
+        margin-left: 200px; 
+        margin-right: 20px; 
+        width: auto; 
+        }
+    .text{
+        margin-left: 200px; 
+        margin-right: 20px; 
+        width: auto; 
+        }
+    .red_text{
+        margin-left: 200px; 
+        margin-right: 20px; 
+        width: auto; 
+        } 
+    .learn_link{
+        margin-left: 200px; 
+        margin-right: 20px; 
+        width: auto; 
+        }
+    }
+@media screen and (max-width: 1040px) {
+    .title{
+        justify-content: center; 
+        align-items: center; 
+        margin-left: 200px; 
+        margin-right: 20px; 
+        width: auto; 
+        font-size: 40px
+        }
+    }
+
+.button{
+    font-size: 20px; 
+    margin: auto; 
+    cursor: pointer; /* 手指 */
+    }
+.top{
+    position: fixed; /* 固定位置 */
+    top: 100px; /* 距離頂部100px */
+    left: 30px; /* 距離左側30px */
+    background-color: #020841; /* 按鈕背景色 */
+    color: white; /* 按鈕文字顏色 */
+    border: none; /* 移除邊框 */
+    border-radius: 20%; /* 按鈕造型 */
+    padding: 10px 15px; /* 按鈕內邊距 */
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: opacity 0.3s ease; /* 動畫過渡 */
+    }
+.top:hover{
+    background-color: #0056b3; /* 滑鼠移入背景色 */
+    }
+.table{
+    position: fixed; 
+    color: #020841; 
+    font-size: 22px; 
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    }
+.table:hover{
+    color: white;
+    }
+.bottom{
+    position: fixed; 
+    top: 600px; 
+    left: 25px; 
+    background-color: #020841; 
+    color: white;  
+    border: none;
+    border-radius: 20%;
+    padding: 10px 15px;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: opacity 0.3s ease; 
+    }
+.bottom:hover{
+        background-color: #0056b3; 
+    }
+
